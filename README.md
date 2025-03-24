@@ -36,7 +36,7 @@ cd /opt/infat0x-ddos
 ```
 ## 🛠 Manual Compilation (If Needed)
 ```bash
-cd infat0x-ddos
+cd /opt/infat0x-ddos
 gcc -O3 source.c -o DDOS
 chmod +x DDOS
 ./infat0x.sh
