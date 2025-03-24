@@ -70,7 +70,7 @@ elif [ "$lang" == "1" ]; then
 	echo -e "${YELLOW}Port: ${BLUE}$port${NC}, Subsite: ${BLUE}$subsite${NC}, Delay: ${BLUE}$delay ms${NC}"
 	echo -e "${GREEN}⚔️ Running the DDOS tool...${NC}"
 
-	./ddos_tool "$host" "$ip" "$port" "$subsite" "$delay"
+	./DDOS "$host" "$ip" "$port" "$subsite" "$delay"
 
 
 
@@ -102,7 +102,7 @@ elif [ "$lang" == "2" ]; then
 	echo -e "${YELLOW}Port: ${BLUE}$port${NC}, Subsite: ${BLUE}$subsite${NC}, Gecikmə: ${BLUE}$delay ms${NC}"
 	echo -e "${GREEN}⚔️ DDOS aləti işə salınır...${NC}"
 
-	./ddos_tool "$host" "$ip" "$port" "$subsite" "$delay"
+	./DDOS "$host" "$ip" "$port" "$subsite" "$delay"
 
 
 
@@ -134,7 +134,7 @@ elif [ "$lang" == "3" ]; then
 	echo -e "${YELLOW}Port: ${BLUE}$port${NC}, Alt Sayfa: ${BLUE}$subsite${NC}, Gecikme: ${BLUE}$delay ms${NC}"
 	echo -e "${GREEN}⚔️ DDOS aracı çalıştırılıyor...${NC}"
 
-	./ddos_tool "$host" "$ip" "$port" "$subsite" "$delay"
+	./DDOS "$host" "$ip" "$port" "$subsite" "$delay"
 else
 	GREETING="Invalid selection!"
 fi
