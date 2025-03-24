@@ -27,7 +27,7 @@ sudo git clone https://github.com/infat0x/infat0x-ddos.git
 ### **2️⃣ Grant Execution Permissions**  
 ```bash
 cd /opt/infat0x-ddos
-chmod +x *
+sudo chmod +x *
 ```
 ## 🚀 Usage
 ```bash
