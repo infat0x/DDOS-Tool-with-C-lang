@@ -21,9 +21,8 @@ This tool is **for educational and security testing purposes only**.
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-sudo cd /opt
+cd /opt
 sudo git clone https://github.com/infat0x/infat0x-ddos.git
-sudo su && cd /opt
 ```
 ### **2️⃣ Grant Execution Permissions**  
 ```bash
